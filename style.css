@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero{
+	background-color: #D7CEC9;
+}
+.us h1 {
+	margin-left: 751px;
+	position: relative;
+	top: 88px;
+	font-size: 50px;
+	font-weight: 200;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-transform: capitalize;
+}
+.all img {
+	width: 263%;
+	margin-left: -480px;
+	margin-top: 1px;
+	position: relative;
+	left: 94px;
+}
+.all{
+	display: flex;
+}
+.all form {
+	margin-top: 150px;
+	position: relative;
+	left: -15px;
+}
+.lable{
+	display: flex;
+	flex-direction: row;
+}
+.lable .doc {
+	position: relative;
+	top: -28px;
+	font-weight: bold;
+}
+.lable .toc {
+	position: relative;
+	top: -28px;
+	font-weight: bold;
+}
+.lable .tree {
+	position: relative;
+	left: -36px;
+	padding: 11px 0;
+	width: 263px;
+}
+.ad{
+	font-weight: bold;
+}
+.pk{
+	position: relative;
+	left: 2px;
+	padding: 11px 0;
+	width: 263px;
+}
+
+.tile {
+	margin-left: 736px;
+	position: relative;
+	top: -102px;
+	display: grid;
+	gap: 56px;
+	font-size: 20px;
+}
+.tile a{
+	text-decoration: none;
+}
+.button {
+	width: 374px;
+	margin-left: -83px;
+	padding: 10px;
+	background-color: crimson;
+	border-radius: 9px;
+	border-color: crimson;
+}
+.tem {
+	color: white;
+	background-color: black;
+	position: relative;
+	top: -1px;
+	height: 200px;
+}
+.ten{
+	position: relative;
+	top: 109px;
+	display: flex;
+	gap: 3px;
+	justify-content: center;
+}
+.ten a{
+	text-decoration: none;
+	color: white;
+}
+
+@media screen and (max-width:520px){
+	.hero{
+		height: 1400px;
+	}
+	.us{
+		position: relative;
+		left: -622px;
+		top: 580px;
+	}
+
+	.all{
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		top: -170px;
+	}
+	
+	.lable{
+		position: relative;
+		top: 31px;
+		left: 36px;
+	}
+	.ad,.pk{
+		position: relative;
+		top: 42px;
+		left: 38px;
+	}
+	.col{
+		position: relative;
+		top: 37px;
+		left: 38px;
+	}
+	.tile{
+		position: relative;
+		top: -100px;
+		left: -627px;
+	}
+	.tem{
+		position: relative;
+		top: -100px;
+		display: flex;
+		margin-left: -200px;
+	}
+	.ten{
+		display: flex;
+		margin-left: 250px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
